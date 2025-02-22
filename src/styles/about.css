@@ -1,0 +1,85 @@
+/* // about.css */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+    background: linear-gradient(120deg, #ff8a00, #e52e71); /* Matching Hero Section gradient */
+    color: white;
+  }
+  
+  .about-container {
+    display: flex;
+    max-width: 900px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .about-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #ffcc00;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .about-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    max-width: 750px;
+  }
+  
+  .skills-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ffcc00;
+  }
+  
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    max-width: 900px;
+  }
+  
+  .skill {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    font-weight: bold;
+    white-space: nowrap;
+    transition: 0.3s;
+    backdrop-filter: blur(5px);
+  }
+  
+  .skill:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+  }
+  
+  .cta-button {
+    padding: 14px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    background: #ffcc00;
+    color: black;
+    margin-top: 30px;
+    box-shadow: 0px 4px 10px rgba(255, 204, 0, 0.4);
+  }
+  
+  .cta-button:hover {
+    background: white;
+    color: black;
+  }

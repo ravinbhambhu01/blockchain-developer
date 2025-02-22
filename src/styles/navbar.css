@@ -1,0 +1,68 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background: rgba(0, 0, 0, 0.85);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  height: 70px;
+  box-sizing: border-box;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: auto;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #ff8a00;
+  text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+}
+
+.hire-me {
+  padding: 8px 20px;
+  background: #ff8a00;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0px 4px 10px rgba(255, 140, 0, 0.4);
+  white-space: nowrap;
+}
+
+.hire-me:hover {
+  background: white;
+  color: #ff8a00;
+}
