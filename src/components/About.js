@@ -18,7 +18,7 @@ const About = () => {
           </p>
           <h3 className="skills-title">My Skills</h3>
           <div className="skills-grid">
-            <div className="skill">🚀 Smart Contract Development (Solidity, Rust)</div>
+            <div className="skill">🚀 Smart Contract Development (Solidity, Chaincode)</div>
             <div className="skill">🔗 Hyperledger Fabric & Corda Expertise</div>
             <div className="skill">📱 dApp Development & Tokenization</div>
             <div className="skill">💰 DeFi & NFT Development</div>
