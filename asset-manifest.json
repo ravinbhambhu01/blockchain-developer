@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/blockchain-developer/static/css/main.918ab487.css",
+    "main.js": "/blockchain-developer/static/js/main.71ba05f2.js",
+    "static/js/453.0d356c16.chunk.js": "/blockchain-developer/static/js/453.0d356c16.chunk.js",
+    "index.html": "/blockchain-developer/index.html",
+    "main.918ab487.css.map": "/blockchain-developer/static/css/main.918ab487.css.map",
+    "main.71ba05f2.js.map": "/blockchain-developer/static/js/main.71ba05f2.js.map",
+    "453.0d356c16.chunk.js.map": "/blockchain-developer/static/js/453.0d356c16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.918ab487.css",
+    "static/js/main.71ba05f2.js"
+  ]
+}
