@@ -1,7 +1,7 @@
-
+/* NAVBAR */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* Center all elements */
   align-items: center;
   padding: 10px 50px;
   background: rgba(0, 0, 0, 0.85);
@@ -14,23 +14,19 @@
   box-sizing: border-box;
 }
 
-.nav-container {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  margin-left: auto;
-}
-
+/* LOGO */
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
   color: white;
+  margin-right: auto;
 }
 
+/* NAVIGATION LINKS */
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 25px;
+  gap: 30px; /* Keeps space between links */
   margin: 0;
   padding: 0;
 }
@@ -48,8 +44,9 @@
   text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
 }
 
+/* HIRE ME BUTTON */
 .hire-me {
-  padding: 8px 20px;
+  padding: 10px 22px;
   background: #ff8a00;
   color: white;
   border: none;
@@ -60,9 +57,68 @@
   transition: all 0.3s;
   box-shadow: 0px 4px 10px rgba(255, 140, 0, 0.4);
   white-space: nowrap;
+  margin-left: 40px; /* Shift slightly left for better alignment */
 }
 
 .hire-me:hover {
   background: white;
   color: #ff8a00;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 10px 30px;
+  }
+
+  .nav-links {
+    gap: 20px;
+  }
+
+  .hire-me {
+    margin-left: 20px; /* Adjust left spacing */
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .logo {
+    font-size: 1rem;
+    padding: 5px 5px;
+  }
+
+  .nav-links {
+    gap: 15px;
+  }
+
+  .hire-me {
+    padding: 8px 18px;
+    font-size: 0.9rem;
+    margin-left: auto; /* Align properly */
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px 15px;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-size: 0.8rem;
+    padding: 5px 5px;
+  }
+
+  .nav-links {
+    gap: 12px; /* Reduce space on mobile */
+  }
+
+  .hire-me {
+    padding: 6px 14px;
+    font-size: 0.85rem;
+    margin-left: 10px; /* Ensures it stays inside */
+  }
 }

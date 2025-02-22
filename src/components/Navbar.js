@@ -9,7 +9,8 @@ const Navbar = () => (
       <li><a href="#services">Services</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-    <button className="hire-me">Hire Me</button>
+    <button className="hire-me" onClick={() => window.location.href = "#contact"}>Hire Me</button>
   </nav>
 );
+
 export default Navbar;
